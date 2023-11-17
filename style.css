@@ -124,8 +124,9 @@ body{
     background-color: #dddada4c;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 0 90 0;
-    gap: 30px;
+    gap: 40px;
     width: 100%;
 }
 

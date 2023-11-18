@@ -93,23 +93,25 @@ body{
 
 .who_we_are{
     display: flex;
-    max-width: 1350;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1750;
     text-align: left;
-    padding: 6%;
+    padding: 3%;
     justify-content: center;
-    justify-content: space-between;
     gap: 60px;
 }
 
 .who_we_are img{
-    width: 100%;
+    width: 30%;
 }
 
 .who_we_are .content{
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 120px;
+    max-width: 750;
 }
 
 .who_we_are .content *{
